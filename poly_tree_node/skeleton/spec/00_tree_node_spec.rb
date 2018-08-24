@@ -1,5 +1,5 @@
 require 'rspec'
-require '00_tree_node'
+require_relative '../lib/00_tree_node'
 
 describe PolyTreeNode do
   let(:node1) { PolyTreeNode.new('root') }
